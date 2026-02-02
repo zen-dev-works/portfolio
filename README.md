@@ -1,6 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; font-family:"Segoe UI",sans-serif; background:#f2f4f8; color:#333; }
+    header { background:#1f2937; color:white; padding:40px 20px; text-align:center; }
+    header h1 { margin:0; font-size:32px; }
+    header p { margin-top:10px; color:#cbd5e1; }
+    main { max-width:900px; margin:40px auto; padding:0 20px; }
+    .card { background:white; border-radius:12px; padding:30px; margin-bottom:30px; box-shadow:0 8px 20px rgba(0,0,0,0.08); }
+    h2 { margin-top:0; border-bottom:2px solid #e5e7eb; padding-bottom:10px; }
+    .skills span { display:inline-block; background:#e5e7eb; padding:8px 14px; border-radius:20px; margin:6px 6px 0 0; font-size:14px; }
+    .btn { display:inline-block; margin-top:15px; padding:12px 24px; background:#2563eb; color:white; text-decoration:none; border-radius:8px; font-weight:bold; }
+    .btn:hover { background:#1d4ed8; }
+    footer { text-align:center; padding:30px; color:#6b7280; font-size:14px; }
+  </style>
 </head>
-
 <body>
 
 <header>
@@ -12,10 +29,7 @@
 
   <div class="card">
     <h2>About Me</h2>
-    <p>
-      HTML / CSS の基礎を学習中です。<br>
-      シンプルで見やすいサイトを作ることを意識しています。
-    </p>
+    <p>HTML / CSS の基礎を学習中です。シンプルで見やすいサイトを作ることを意識しています。</p>
   </div>
 
   <div class="card">
